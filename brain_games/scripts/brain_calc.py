@@ -1,7 +1,6 @@
-
 from brain_games.cli import welcome_user
 from brain_games.game_logic import run_game
-from brain_games.games.even import get_round_data
+from brain_games.games.calc import get_round_data
 
 
 def main():
