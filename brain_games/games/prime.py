@@ -13,7 +13,8 @@ def is_prime(number):
 
 
 def get_round_data():
-    description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    description = 'Answer "yes" if given number is prime. ' \
+                  'Otherwise answer "no".'
     
     number = random.randint(1, 100)
     
